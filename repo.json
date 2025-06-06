@@ -1,0 +1,44 @@
+{
+  "name": "Puzhius Game Source",
+  "subtitle": "A source for Puzhius Game",
+  "description": "Welcome to Puzhius source! Here you can install Puzhius Game.",
+  "tintColor": "#0366FC",
+  "featuredApps": [
+    "com.puzhius.puzhiusgame",
+  ],
+  "apps": [
+    {
+        "name": "Puzhius Game",
+        "bundleIdentifier": "com.puzhius.puzhiusgame",
+        "developerName": "Puzhius Team",
+        "subtitle": "A cube multiplayer game",
+        "localizedDescription": "A chaotic multiplayer sandbox where you become a living cube!",
+        "iconURL": "https://raw.githubusercontent.com/artemius466/puzhius_altstore/refs/heads/main/squareenemy.png",
+        "tintColor": "#0366FC",
+        "category": "games",
+        "screenshots": [],
+        "versions": [
+          {
+            "version": "0.3.0",
+            "buildVersion": "0.3.0",
+            "date": "2025-6-7",
+            "localizedDescription": "First AltStore release!",
+            "downloadURL": "https://github.com/artemius466/puzhius_altstore/releases/download/0.3.0/0.3.0.ipa",
+            "size": 36677245,
+            "minOSVersion": "14.0"
+          },
+        ],
+        "appPermissions": {
+          "entitlements": [
+          ],
+          "privacy": {
+            "NSMicrophoneUsageDescription": "Default godot permission.",
+            "NSCameraUsageDescription": "Default godot permission.",
+            "NSPhotoLibraryUsageDescription": "Default godot permission."
+          }
+        },
+        "patreon": {},
+    },
+  ],
+  "news": [],
+}
